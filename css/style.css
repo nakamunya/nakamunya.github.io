@@ -1,16 +1,8 @@
 body {
     background: #000;
-    /*    background: #ff7e5f;*/
-    /* fallback for old browsers */
-    /*    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);*/
-    /* Chrome 10-25, Safari 5.1-6 */
-    /*    background: linear-gradient(to right, #feb47b, #ff7e5f);*/
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
 /* start ナビゲーションバー周り */
-
 .navbar-brand {
     font-size: 1.6rem;
     font-weight: 400;
@@ -24,8 +16,6 @@ body {
     letter-spacing: 2px;
     text-decoration: none;
 }
-
-
 /* end ナビゲーションバー周り */
 
 #bg_mosaic {
@@ -39,7 +29,7 @@ body {
     opacity: 0.7;
     z-index: 5;
     zoom: 1;
-    background: url("/img/bg_mosaic1.png");
+    background: url("./img/bg_mosaic1_b.png");
 }
 
 #logo {
@@ -51,7 +41,6 @@ body {
 
 .t_white {
     color: #eee;
-    /*	text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);*/
 }
 
 .wrapper {
@@ -67,18 +56,6 @@ body {
     display: none;
 }
 
-.a_white a:link {
-    color: white;
-}
-
-.a_white a:visited {
-    color: white;
-}
-
-.a_white a:hover {
-    color: white;
-}
-
-.a_white a:active {
+.a_white a {
     color: white;
 }
